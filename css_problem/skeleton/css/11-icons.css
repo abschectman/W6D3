@@ -1,0 +1,40 @@
+[class*="icon-"]{
+  background-image: url("/Users/aa/Desktop/W6D3/css_problem/skeleton/images/sprite.png");
+  background-size: 25px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  padding-top: 25px;
+  height: 0;
+
+}
+
+.icon-reblog{
+  background-position-y: -100px;  
+
+}
+
+.icon-favorite{
+  background-position-y: -50px;
+
+}
+
+[class*="icon-small-"]{
+  background-image: url("/Users/aa/Desktop/W6D3/css_problem/skeleton/images/sprite.png");
+  background-size: 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  height: 0;
+  overflow: hidden;
+}
+
+.profile-nav > li {
+  display: flex;
+
+}
+
+.icon-small-wall {
+  background-position-y: -225px;
+}
